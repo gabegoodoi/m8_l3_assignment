@@ -1,0 +1,59 @@
+.menu, #footer {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    padding: 2px;
+    margin: 2px;
+    justify-content: center;
+    font-size:large;
+}
+
+@media screen and (max-width:600px) {
+    .menu, #footer {
+        flex-direction: column;
+    }
+}
+
+.menu_item, .footer_section {
+    padding-right: 1vw;
+}
+
+#main_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw;
+}
+
+#content_item_1, #content_item_2 {
+    padding: 1vw;
+    font-size: 3vw;
+}
+
+header {
+    font-weight: bold;
+    font-size: 6vw;
+    background-image: url(kitten.png);
+    background-color: pink;
+    background-size:contain;
+    background-position-y: top;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    height: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: navy;
+    text-shadow: 
+    -1px -1px 0 rgba(255, 255, 0, 0.481),
+    1px -1px 0 rgba(255, 255, 0, 0.481),
+    -1px 1px 0 rgba(255, 255, 0, 0.481),
+    1px 1px 0 rgba(255, 255, 0, 0.481);   
+    text-align: center;
+ 
+}
+
+#cat {
+    width: 35vw;
+}
